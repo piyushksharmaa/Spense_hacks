@@ -1,0 +1,63 @@
+.header-nav-bar {
+  width: 100vw;
+  height: 50px;
+  background-color: #f2e3db;
+  display: flex;
+  flex-direction: row;
+  //   justify-content: space-between;
+  .header-nav-bar-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    .header-nav-bar-div-logo {
+      margin: 0px;
+      width: 12%;
+      .header-nav-bar-div-logo-img {
+        height: 50px;
+      }
+    }
+    .header-nav-bar-div-searchbar {
+      margin: 10px 25px;
+      // margin-left: 240px;
+      width: 40%;
+      .header-nav-bar-div-searchbar-1 {
+        height: 30px;
+        width: 350px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        // border: solid black;
+      }
+    }
+    .header-nav-bar-div-2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      justify-content: flex-end;
+      width: 48%;
+      padding: 0 15px 15px 15px;
+      align-items: center;
+      height: 100%;
+      .header-nav-bar-div-2-products {
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+        height: 100%;
+        &:hover {
+          color: #e86a33;
+          cursor: pointer;
+        }
+      }
+      .header-nav-bar-div-2-login {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+        height: 100%;
+        &:hover {
+          color: #e86a33;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
